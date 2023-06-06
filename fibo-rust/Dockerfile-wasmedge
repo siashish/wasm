@@ -1,0 +1,21 @@
+# Use a base image with the desired Linux distribution
+FROM ubuntu:latest
+
+# Install necessary dependencies
+RUN apt-get update && apt-get install -y curl
+RUN apt install -y git
+RUN apt-get install -y python3
+
+# Download and install Wasmedge
+RUN curl -sSf https://raw.githubusercontent.com/WasmEdge/WasmEdge/master/utils/install.sh | bash
+
+# Add Wasmedge binaries to the system PATH
+ENV PATH="/root/.wasmedge/bin:${PATH}"
+
+# Copy project file
+COPY ./* ./
+
+RUN wasmedgec wasm32-wasi/release/fibo-rust.wasm fibo-rust.wasm
+
+# Run the program
+CMD ["wasmedge", "fibo-rust.wasm"]

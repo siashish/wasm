@@ -1,0 +1,1 @@
+{"rustc":5075174800980901198,"features":"[]","target":2251339047156629833,"profile":6269190295429226618,"path":1684066648322511884,"deps":[],"local":[{"CheckDepInfo":{"dep_info":"wasm32-wasi/release/.fingerprint/fibo-rust-2b93fd8b1e5c3435/dep-bin-fibo-rust"}}],"rustflags":[],"metadata":7797948686568424061,"config":2202906307356721367,"compile_kind":16489420942494921214}
