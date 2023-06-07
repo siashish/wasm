@@ -15,7 +15,7 @@ ENV PATH="/root/.wasmedge/bin:${PATH}"
 # Copy project file
 COPY ./* ./
 
-RUN wasmedgec wasm32-wasi/release/fibo-rust.wasm fibo-rust.wasm
+RUN wasmedgec wasm32-wasi/release/fibo-rust.wasm fibo-compiled.wasm
 
 # Run the program
-CMD ["wasmedge", "fibo-rust.wasm"]
+CMD ["wasmedge", "fibo-compiled.wasm"]

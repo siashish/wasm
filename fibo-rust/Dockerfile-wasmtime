@@ -3,6 +3,7 @@ FROM ubuntu:latest
 
 # Install necessary dependencies
 RUN apt-get update && apt-get install -y curl
+RUN apt-get install xz-utils
 
 # Download and install Wasmtime
 RUN curl https://wasmtime.dev/install.sh -sSf | bash
@@ -13,7 +14,7 @@ ENV PATH="/root/.wasmtime/bin:$PATH"
 #ENV export PATH="/root/.wasmtime/bin/wasmtime:${PATH}"
 
 # Print Wasmtime version
-CMD ["wasmtime", "--version"]
+# CMD ["wasmtime", "--version"]
 
 # Copy project file
 COPY ./* ./
