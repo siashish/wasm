@@ -34,16 +34,16 @@ cargo build --release --target wasm32-wasi
 date
 echo "======================================="
 echo "wasmer"
-\time -f "Program: %C\nTotal time: %E\nUser Mode (s) %U\nKernel Mode (s) %S\nCPU: %P\nMemory: %K\nRSS: %M" wasmer target/wasm32-wasi/release/fibo.wasm 
+\time -f "Program: %C\nTotal time: %E\nUser Mode (s) %U\nKernel Mode (s) %S\nCPU: %P\nMemory: %K\nRSS: %M" wasmer target/wasm32-wasi/release/fibo-rust.wasm 
 echo "======================================="
 echo "wasmtime"
-\time -f "Program: %C\nTotal time: %E\nUser Mode (s) %U\nKernel Mode (s) %S\nCPU: %P\nMemory: %K\nRSS: %M" wasmtime target/wasm32-wasi/release/fibo.wasm 
+\time -f "Program: %C\nTotal time: %E\nUser Mode (s) %U\nKernel Mode (s) %S\nCPU: %P\nMemory: %K\nRSS: %M" wasmtime target/wasm32-wasi/release/fibo-rust.wasm 
 echo "======================================="
 
 wasmedgec target/wasm32-wasi/release/fibo.wasm fibo.wasm
 echo "======================================="
 echo "wasmedge"
-\time -f "Program: %C\nTotal time: %E\nUser Mode (s) %U\nKernel Mode (s) %S\nCPU: %P\nMemory: %K\nRSS: %M" wasmedge fibo.wasm 
+\time -f "Program: %C\nTotal time: %E\nUser Mode (s) %U\nKernel Mode (s) %S\nCPU: %P\nMemory: %K\nRSS: %M" wasmedge fibo-rust.wasm 
 echo "======================================="
 echo
 echo

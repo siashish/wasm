@@ -256,3 +256,106 @@ RSS: 25452
 =======================================
 
 
+#######################################
+#######################################
+#######################################
+#######################################
+#######################################
+#######################################
+Thu Jun  8 07:13:22 PM IST 2023
+***************************************
+Running under docker
+***************************************
+=======================================
+wasmer
+512559680
+
+real	0m14.253s
+user	0m0.004s
+sys	0m0.021s
+512559680
+Program: docker run -it docker.io/library/wasmer-rust-fibo
+Total time: 0:13.15
+User Mode (s) 0.01
+Kernel Mode (s) 0.00
+CPU: 0%
+Memory: 0
+RSS: 24960
+=======================================
+wasmtime
+512559680
+
+real	0m11.952s
+user	0m0.009s
+sys	0m0.013s
+512559680
+Program: docker run -it docker.io/library/wasmtime-rust-fibo
+Total time: 0:11.54
+User Mode (s) 0.01
+Kernel Mode (s) 0.00
+CPU: 0%
+Memory: 0
+RSS: 24948
+=======================================
+wasmedge
+512559680
+
+real	0m7.858s
+user	0m0.013s
+sys	0m0.008s
+512559680
+Program: docker run -it docker.io/library/wasmedge-rust-fibo
+Total time: 0:07.49
+User Mode (s) 0.00
+Kernel Mode (s) 0.01
+CPU: 0%
+Memory: 0
+RSS: 25160
+=======================================
+
+
+***************************************
+Running over local machine
+***************************************
+    Finished release [optimized] target(s) in 0.00s
+    Finished release [optimized] target(s) in 0.00s
+Thu Jun  8 07:14:28 PM IST 2023
+=======================================
+wasmer
+512559680
+Program: wasmer target/wasm32-wasi/release/fibo-rust.wasm
+Total time: 0:11.96
+User Mode (s) 11.99
+Kernel Mode (s) 0.00
+CPU: 100%
+Memory: 0
+RSS: 38832
+=======================================
+wasmtime
+512559680
+Program: wasmtime target/wasm32-wasi/release/fibo-rust.wasm
+Total time: 0:10.97
+User Mode (s) 11.02
+Kernel Mode (s) 0.01
+CPU: 100%
+Memory: 0
+RSS: 25516
+=======================================
+[2023-06-08 19:14:51.346] [error] loading failed: invalid path, Code: 0x20
+[2023-06-08 19:14:51.346] [error]     File name: "/home/ashish/wasm/fibo-rust/target/wasm32-wasi/release/fibo.wasm"
+[2023-06-08 19:14:51.346] [error] Load failed. Error code: 32
+=======================================
+wasmedge
+[2023-06-08 19:14:51.349] [error] loading failed: invalid path, Code: 0x20
+[2023-06-08 19:14:51.350] [error]     File name: "/home/ashish/wasm/fibo-rust/fibo-rust.wasm"
+Command exited with non-zero status 1
+Program: wasmedge fibo-rust.wasm
+Total time: 0:00.00
+User Mode (s) 0.00
+Kernel Mode (s) 0.00
+CPU: 100%
+Memory: 0
+RSS: 18992
+=======================================
+
+
