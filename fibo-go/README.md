@@ -3,7 +3,7 @@ make the script excute permission
 
 for running the script(this script assume that you already build the image by given below command)
 
-```./script.sh &>> wasmLog-go.txt ```
+```./script.sh &>> wasmLog-go-docker.txt ```
 
 you can see the log in wasmLog.log file at the EOF.
 

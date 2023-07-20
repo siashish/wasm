@@ -1,0 +1,361 @@
+#######################################
+#######################################
+Wed Jun  7 09:02:04 UTC 2023
+=======================================
+wasmer
+512559680
+
+real	0m17.188s
+user	0m0.020s
+sys	0m0.008s
+=======================================
+wasmtime
+512559680
+
+real	0m14.716s
+user	0m0.016s
+sys	0m0.015s
+=======================================
+wasmedge
+512559680
+
+real	0m10.302s
+user	0m0.019s
+sys	0m0.012s
+=======================================
+
+
+#######################################
+#######################################
+Wed Jun  7 08:49:55 PM IST 2023
+=======================================
+wasmer
+512559680
+
+real	0m18.341s
+user	0m0.009s
+sys	0m0.009s
+=======================================
+wasmtime
+512559680
+
+real	0m18.657s
+user	0m0.000s
+sys	0m0.024s
+=======================================
+wasmedge
+512559680
+
+real	0m10.043s
+user	0m0.015s
+sys	0m0.008s
+=======================================
+
+
+#######################################
+#######################################
+Wed Jun  7 09:18:52 PM IST 2023
+=======================================
+wasmer
+512559680
+
+real	0m15.372s
+user	0m0.008s
+sys	0m0.012s
+512559680
+Program: docker run -it docker.io/library/wasmer-rust-fibo
+Total time: 0:15.17
+User Mode (s) 0.01
+Kernel Mode (s) 0.00
+CPU: 0%
+Memory: 0
+RSS: 25496
+=======================================
+wasmtime
+512559680
+
+real	0m12.012s
+user	0m0.010s
+sys	0m0.010s
+512559680
+Program: docker run -it docker.io/library/wasmtime-rust-fibo
+Total time: 0:11.94
+User Mode (s) 0.00
+Kernel Mode (s) 0.01
+CPU: 0%
+Memory: 0
+RSS: 25180
+=======================================
+wasmedge
+512559680
+
+real	0m8.249s
+user	0m0.005s
+sys	0m0.014s
+512559680
+Program: docker run -it docker.io/library/wasmedge-rust-fibo
+Total time: 0:08.17
+User Mode (s) 0.01
+Kernel Mode (s) 0.00
+CPU: 0%
+Memory: 0
+RSS: 24884
+=======================================
+
+
+#######################################
+#######################################
+Wed Jun  7 09:20:21 PM IST 2023
+=======================================
+wasmer
+512559680
+
+real	0m13.829s
+user	0m0.016s
+sys	0m0.005s
+512559680
+Program: docker run -it docker.io/library/wasmer-rust-fibo
+Total time: 0:14.50
+User Mode (s) 0.02
+Kernel Mode (s) 0.00
+CPU: 0%
+Memory: 0
+RSS: 25132
+=======================================
+wasmtime
+512559680
+
+real	0m14.478s
+user	0m0.003s
+sys	0m0.013s
+512559680
+Program: docker run -it docker.io/library/wasmtime-rust-fibo
+Total time: 0:15.02
+User Mode (s) 0.00
+Kernel Mode (s) 0.01
+CPU: 0%
+Memory: 0
+RSS: 25176
+=======================================
+wasmedge
+512559680
+
+real	0m10.266s
+user	0m0.024s
+sys	0m0.027s
+512559680
+Program: docker run -it docker.io/library/wasmedge-rust-fibo
+Total time: 0:09.45
+User Mode (s) 0.01
+Kernel Mode (s) 0.00
+CPU: 0%
+Memory: 0
+RSS: 25528
+=======================================
+
+
+#######################################
+#######################################
+Wed Jun  7 09:23:18 PM IST 2023
+=======================================
+wasmer
+512559680
+
+real	0m12.678s
+user	0m0.012s
+sys	0m0.015s
+512559680
+Program: docker run -it docker.io/library/wasmer-rust-fibo
+Total time: 0:13.60
+User Mode (s) 0.01
+Kernel Mode (s) 0.00
+CPU: 0%
+Memory: 0
+RSS: 25340
+=======================================
+wasmtime
+512559680
+
+real	0m11.972s
+user	0m0.010s
+sys	0m0.010s
+512559680
+Program: docker run -it docker.io/library/wasmtime-rust-fibo
+Total time: 0:12.36
+User Mode (s) 0.01
+Kernel Mode (s) 0.00
+CPU: 0%
+Memory: 0
+RSS: 25128
+=======================================
+wasmedge
+512559680
+
+real	0m8.065s
+user	0m0.008s
+sys	0m0.012s
+512559680
+Program: docker run -it docker.io/library/wasmedge-rust-fibo
+Total time: 0:08.13
+User Mode (s) 0.00
+Kernel Mode (s) 0.01
+CPU: 0%
+Memory: 0
+RSS: 25460
+=======================================
+
+
+#######################################
+#######################################
+Wed Jun  7 09:26:37 PM IST 2023
+=======================================
+wasmer
+512559680
+
+real	0m12.320s
+user	0m0.000s
+sys	0m0.021s
+512559680
+Program: docker run -it docker.io/library/wasmer-rust-fibo
+Total time: 0:14.73
+User Mode (s) 0.01
+Kernel Mode (s) 0.00
+CPU: 0%
+Memory: 0
+RSS: 25284
+=======================================
+wasmtime
+512559680
+
+real	0m20.519s
+user	0m0.021s
+sys	0m0.007s
+512559680
+Program: docker run -it docker.io/library/wasmtime-rust-fibo
+Total time: 0:20.75
+User Mode (s) 0.01
+Kernel Mode (s) 0.02
+CPU: 0%
+Memory: 0
+RSS: 25352
+=======================================
+wasmedge
+512559680
+
+real	0m13.812s
+user	0m0.018s
+sys	0m0.022s
+512559680
+Program: docker run -it docker.io/library/wasmedge-rust-fibo
+Total time: 0:15.25
+User Mode (s) 0.03
+Kernel Mode (s) 0.02
+CPU: 0%
+Memory: 0
+RSS: 25452
+=======================================
+
+
+#######################################
+#######################################
+#######################################
+#######################################
+#######################################
+#######################################
+Thu Jun  8 07:13:22 PM IST 2023
+***************************************
+Running under docker
+***************************************
+=======================================
+wasmer
+512559680
+
+real	0m14.253s
+user	0m0.004s
+sys	0m0.021s
+512559680
+Program: docker run -it docker.io/library/wasmer-rust-fibo
+Total time: 0:13.15
+User Mode (s) 0.01
+Kernel Mode (s) 0.00
+CPU: 0%
+Memory: 0
+RSS: 24960
+=======================================
+wasmtime
+512559680
+
+real	0m11.952s
+user	0m0.009s
+sys	0m0.013s
+512559680
+Program: docker run -it docker.io/library/wasmtime-rust-fibo
+Total time: 0:11.54
+User Mode (s) 0.01
+Kernel Mode (s) 0.00
+CPU: 0%
+Memory: 0
+RSS: 24948
+=======================================
+wasmedge
+512559680
+
+real	0m7.858s
+user	0m0.013s
+sys	0m0.008s
+512559680
+Program: docker run -it docker.io/library/wasmedge-rust-fibo
+Total time: 0:07.49
+User Mode (s) 0.00
+Kernel Mode (s) 0.01
+CPU: 0%
+Memory: 0
+RSS: 25160
+=======================================
+
+
+***************************************
+Running over local machine
+***************************************
+    Finished release [optimized] target(s) in 0.00s
+    Finished release [optimized] target(s) in 0.00s
+Thu Jun  8 07:14:28 PM IST 2023
+=======================================
+wasmer
+512559680
+Program: wasmer target/wasm32-wasi/release/fibo-rust.wasm
+Total time: 0:11.96
+User Mode (s) 11.99
+Kernel Mode (s) 0.00
+CPU: 100%
+Memory: 0
+RSS: 38832
+=======================================
+wasmtime
+512559680
+Program: wasmtime target/wasm32-wasi/release/fibo-rust.wasm
+Total time: 0:10.97
+User Mode (s) 11.02
+Kernel Mode (s) 0.01
+CPU: 100%
+Memory: 0
+RSS: 25516
+=======================================
+[2023-06-08 19:14:51.346] [error] loading failed: invalid path, Code: 0x20
+[2023-06-08 19:14:51.346] [error]     File name: "/home/ashish/wasm/fibo-rust/target/wasm32-wasi/release/fibo.wasm"
+[2023-06-08 19:14:51.346] [error] Load failed. Error code: 32
+=======================================
+wasmedge
+[2023-06-08 19:14:51.349] [error] loading failed: invalid path, Code: 0x20
+[2023-06-08 19:14:51.350] [error]     File name: "/home/ashish/wasm/fibo-rust/fibo-rust.wasm"
+Command exited with non-zero status 1
+Program: wasmedge fibo-rust.wasm
+Total time: 0:00.00
+User Mode (s) 0.00
+Kernel Mode (s) 0.00
+CPU: 100%
+Memory: 0
+RSS: 18992
+=======================================
+
+

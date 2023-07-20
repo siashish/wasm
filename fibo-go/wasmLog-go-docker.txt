@@ -1,0 +1,292 @@
+#######################################
+#######################################
+Wed Jun  7 08:56:07 UTC 2023
+=======================================
+wasmer
+512559680
+
+real	0m18.399s
+user	0m0.038s
+sys	0m0.003s
+=======================================
+wasmtime
+512559680
+
+real	0m18.525s
+user	0m0.022s
+sys	0m0.012s
+=======================================
+=======================================
+wasmedge
+512559680
+
+real	0m9.406s
+user	0m0.014s
+sys	0m0.017s
+=======================================
+
+
+#######################################
+#######################################
+Wed Jun  7 10:02:10 UTC 2023
+=======================================
+wasmer
+512559680
+
+real	0m20.877s
+user	0m0.004s
+sys	0m0.046s
+=======================================
+wasmtime
+512559680
+
+real	0m18.600s
+user	0m0.021s
+sys	0m0.007s
+=======================================
+=======================================
+wasmedge
+512559680
+
+real	0m10.330s
+user	0m0.010s
+sys	0m0.016s
+=======================================
+
+
+#######################################
+#######################################
+Wed Jun  7 08:53:40 PM IST 2023
+=======================================
+wasmer
+512559680
+
+real	0m14.871s
+user	0m0.014s
+sys	0m0.007s
+=======================================
+wasmtime
+512559680
+
+real	0m14.602s
+user	0m0.008s
+sys	0m0.008s
+=======================================
+=======================================
+wasmedge
+512559680
+
+real	0m8.176s
+user	0m0.015s
+sys	0m0.000s
+=======================================
+
+
+#######################################
+#######################################
+Wed Jun  7 09:16:22 PM IST 2023
+=======================================
+wasmer
+512559680
+
+real	0m14.273s
+user	0m0.021s
+sys	0m0.015s
+512559680
+Program: docker run -it docker.io/library/wasmer-go-fibo
+Total time: 0:14.19
+User Mode (s) 0.01
+Kernel Mode (s) 0.00
+CPU: 0%
+Memory: 0
+RSS: 24936
+=======================================
+wasmtime
+512559680
+
+real	0m12.626s
+user	0m0.007s
+sys	0m0.013s
+512559680
+Program: docker run -it docker.io/library/wasmtime-go-fibo
+Total time: 0:13.30
+User Mode (s) 0.00
+Kernel Mode (s) 0.01
+CPU: 0%
+Memory: 0
+RSS: 25828
+=======================================
+=======================================
+wasmedge
+512559680
+
+real	0m8.025s
+user	0m0.018s
+sys	0m0.000s
+512559680
+Program: docker run -it docker.io/library/wasmedge-go-fibo
+Total time: 0:07.22
+User Mode (s) 0.00
+Kernel Mode (s) 0.01
+CPU: 0%
+Memory: 0
+RSS: 25148
+=======================================
+
+
+#######################################
+#######################################
+Wed Jun  7 09:20:15 PM IST 2023
+=======================================
+wasmer
+512559680
+
+real	0m15.099s
+user	0m0.008s
+sys	0m0.016s
+512559680
+Program: docker run -it docker.io/library/wasmer-go-fibo
+Total time: 0:15.61
+User Mode (s) 0.01
+Kernel Mode (s) 0.00
+CPU: 0%
+Memory: 0
+RSS: 25460
+=======================================
+wasmtime
+512559680
+
+real	0m15.480s
+user	0m0.007s
+sys	0m0.022s
+512559680
+Program: docker run -it docker.io/library/wasmtime-go-fibo
+Total time: 0:16.86
+User Mode (s) 0.01
+Kernel Mode (s) 0.01
+CPU: 0%
+Memory: 0
+RSS: 25744
+=======================================
+=======================================
+wasmedge
+512559680
+
+real	0m10.183s
+user	0m0.013s
+sys	0m0.010s
+512559680
+Program: docker run -it docker.io/library/wasmedge-go-fibo
+Total time: 0:09.88
+User Mode (s) 0.01
+Kernel Mode (s) 0.01
+CPU: 0%
+Memory: 0
+RSS: 25500
+=======================================
+
+
+#######################################
+#######################################
+Wed Jun  7 09:21:49 PM IST 2023
+=======================================
+wasmer
+512559680
+
+real	0m13.547s
+user	0m0.017s
+sys	0m0.004s
+512559680
+Program: docker run -it docker.io/library/wasmer-go-fibo
+Total time: 0:14.66
+User Mode (s) 0.00
+Kernel Mode (s) 0.01
+CPU: 0%
+Memory: 0
+RSS: 25492
+=======================================
+wasmtime
+512559680
+
+real	0m13.558s
+user	0m0.000s
+sys	0m0.027s
+512559680
+Program: docker run -it docker.io/library/wasmtime-go-fibo
+Total time: 0:13.82
+User Mode (s) 0.01
+Kernel Mode (s) 0.01
+CPU: 0%
+Memory: 0
+RSS: 25476
+=======================================
+=======================================
+wasmedge
+512559680
+
+real	0m8.670s
+user	0m0.020s
+sys	0m0.008s
+512559680
+Program: docker run -it docker.io/library/wasmedge-go-fibo
+Total time: 0:07.87
+User Mode (s) 0.00
+Kernel Mode (s) 0.01
+CPU: 0%
+Memory: 0
+RSS: 25564
+=======================================
+
+
+#######################################
+#######################################
+Wed Jun  7 09:24:32 PM IST 2023
+=======================================
+wasmer
+512559680
+
+real	0m13.728s
+user	0m0.011s
+sys	0m0.016s
+512559680
+Program: docker run -it docker.io/library/wasmer-go-fibo
+Total time: 0:14.97
+User Mode (s) 0.01
+Kernel Mode (s) 0.01
+CPU: 0%
+Memory: 0
+RSS: 25352
+=======================================
+wasmtime
+512559680
+
+real	0m13.651s
+user	0m0.019s
+sys	0m0.012s
+512559680
+Program: docker run -it docker.io/library/wasmtime-go-fibo
+Total time: 0:13.37
+User Mode (s) 0.00
+Kernel Mode (s) 0.00
+CPU: 0%
+Memory: 0
+RSS: 25156
+=======================================
+=======================================
+wasmedge
+512559680
+
+real	0m8.792s
+user	0m0.003s
+sys	0m0.017s
+512559680
+Program: docker run -it docker.io/library/wasmedge-go-fibo
+Total time: 0:08.37
+User Mode (s) 0.00
+Kernel Mode (s) 0.00
+CPU: 0%
+Memory: 0
+RSS: 25764
+=======================================
+
+

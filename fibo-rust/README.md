@@ -3,7 +3,7 @@ make the script excute permission
 
 for running the script(this script assume that you already build the image by given below command)
 
-```./script.sh &>> wasmLog-rust.txt ```
+```./script.sh &>> wasmLog-rust-docker.txt ```
 
 you can see the log in wasmLog.log file at the EOF.
 

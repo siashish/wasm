@@ -1,1 +1,1 @@
-/Users/ashishsingh/development/wasm/fibo-rust/target/release/fibo-rust: /Users/ashishsingh/development/wasm/fibo-rust/src/main.rs
+/home/ashish/wasm/fibo-rust/target/release/fibo-rust: /home/ashish/wasm/fibo-rust/src/main.rs
