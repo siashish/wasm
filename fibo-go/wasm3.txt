@@ -1,0 +1,24 @@
+GO OUTPUT
+ashishsingh@Ashishs-MacBook-Pro fibo-go % time wasm3 fibo.wasm 
+512559680
+wasm3 fibo.wasm  111.31s user 0.08s system 99% cpu 1:51.51 total
+ashishsingh@Ashishs-MacBook-Pro fibo-go % time wasm3 fibo.wasm
+512559680
+wasm3 fibo.wasm  111.08s user 0.30s system 99% cpu 1:51.43 total
+ashishsingh@Ashishs-MacBook-Pro fibo-go % time wasm3 fibo-compiled.wasm 
+512559680
+wasm3 fibo-compiled.wasm  110.97s user 0.16s system 99% cpu 1:51.13 total
+ashishsingh@Ashishs-MacBook-Pro fibo-go % time wasm3 fibo-compiled.wasm
+512559680
+wasm3 fibo-compiled.wasm  110.97s user 0.17s system 99% cpu 1:51.16 total
+
+RUST OUTPUT
+ashishsingh@Ashishs-MacBook-Pro fibo-rust % time wasm3 target/wasm32-wasi/release/fibo-rust.wasm 
+512559680
+wasm3 target/wasm32-wasi/release/fibo-rust.wasm  112.73s user 0.23s system 99% cpu 1:52.97 total
+ashishsingh@Ashishs-MacBook-Pro fibo-rust % time wasm3 target/wasm32-wasi/release/fibo-rust.wasm
+512559680
+wasm3 target/wasm32-wasi/release/fibo-rust.wasm  112.71s user 0.16s system 99% cpu 1:52.88 total
+ashishsingh@Ashishs-MacBook-Pro fibo-rust % time wasm3 target/wasm32-wasi/release/fibo-rust.wasm
+512559680
+wasm3 target/wasm32-wasi/release/fibo-rust.wasm  112.74s user 0.18s system 99% cpu 1:52.94 total
