@@ -3,7 +3,8 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Println(fibo(47))
+	var n uint32 = 47
+	fmt.Println("fibonacci(", n, ")= ", fibo(n))
 }
 
 //export fibo
